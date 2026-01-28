@@ -1,0 +1,28 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: antiquewhite;
+    min-height: 100vh;
+}
+
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.table-scroll {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+@media screen and (max-width: 400px) {
+    .hide {
+        display: none;
+    }
+}
